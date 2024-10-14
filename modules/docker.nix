@@ -10,6 +10,6 @@
 
   virtualisation.oci-containers = {
     backend = "docker";
-    containers = (import ./containers.nix);
+    containers = (import ../docker/containers.nix);
   };
 }
