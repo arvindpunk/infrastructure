@@ -1,2 +1,5 @@
-users/*.public-keys.nix
-modules/*.private.nix
+**/*.public-keys.nix
+**/*.private.nix
+.terraform
+terraform.tfstate
+terraform.tfstate.*
